@@ -1,0 +1,12 @@
+export const types = Object.freeze({
+    //Async
+    FETCH_POST_ASYNC:  'FETCH_POST_ASYNC',
+    CREATE_POST_ASYNC: 'CREATE_POST_ASYNC',
+    REMOVE_POST_ASYNC: 'REMOVE_POST_ASYNC',
+
+    //Sync
+    FILL_POSTS:  'FILL_POSTS',
+    CREATE_POST: 'CREATE_POST',
+    REMOVE_POST: 'REMOVE_POST',
+    CLEAR_POST:  'CLEAR_POST',
+});
